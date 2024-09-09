@@ -1,0 +1,212 @@
+.home {
+  align-items: center;
+  max-width: inherit;
+  margin: 0 auto;
+}
+
+.end{
+  display: flex;
+  gap: 10px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Full height of the viewport */
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Full height of the viewport */
+  padding: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Full height of the viewport */
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px; /* Optional: styling for the content box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: rounding the corners of the image */
+}
+
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 20px;
+}
+
+.card{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+  padding: 20px;
+  gap: 5px;
+}
+
+.cardio{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.respi{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.brain{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.kidney{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.real{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cancer{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.signup{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signform{
+  display: flex;
+  flex-direction: column;
+}
+
+.userlogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.otheruser{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: flex-start;
+  font-size: larger;
+}
+
+.entry {
+  position: relative; /* Ensure the input is relatively positioned */
+  width: max-content;
+  padding: 20px;
+  margin-left: 100px;
+  border: 0;
+  border-bottom: 1px solid #333;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.selectuser{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.selectuser {
+  display: flex;
+  gap: 20px;
+}
+
+.selectuser label {
+  position: relative;
+  padding-left: 35px; /* Adjust for custom radio size */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.selectuser input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.selectuser input[type="radio"] + span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #f3f3fd;
+  border: 2px solid #333;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.selectuser input[type="radio"]:checked + span {
+  background-color: #333; /* Color for selected radio button */
+  border-color: #333;
+}
+
+.selectuser input[type="radio"]:checked + span:after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.selectuser span:hover {
+  background-color: #ddd; /* Change color on hover */
+}
+
+
+
+
+
+
+
+
+

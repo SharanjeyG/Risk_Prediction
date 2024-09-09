@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  padding: 20px;
+}
+
+.section {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* White background for the video section */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px); /* Rounded corners */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-left: 20px; /* Space between sections */
+}
+
+video {
+  max-width: 100%; /* Ensure video scales with container */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.chat-log {
+  max-height: 60vh; /* Limit height of chat log */
+  overflow-y: auto; /* Scrollable chat log */
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Divider line */
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ReportPage.css */
+
+.report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  padding: 20px;
+}
+
+.report-form {
+  backdrop-filter: blur(10px); /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  width: 100%;
+  max-width: 600px; /* Maximum width of the form */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Darker text color */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Slightly lighter text color for labels */
+}
+
+

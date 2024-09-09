@@ -1,0 +1,46 @@
+.sidebar-content {
+  padding-left: 30px;
+}
+
+.disease {
+  list-style-type: none;
+}
+
+.disease li {
+  margin-top: 5px;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.formbold-form-input {
+  padding: 5px;
+  margin-left: 10px;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #333;
+}
+
+/* .form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+  padding: 20px;
+  backdrop-filter: blur(10px); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} */
+
+.sidebar{
+    width: max-content;
+    padding: 20px;
+    background: radial-gradient(circle at top, #918c9b, #bdbde3);
+}
+
+.mainreal{
+    padding: 40px;
+}

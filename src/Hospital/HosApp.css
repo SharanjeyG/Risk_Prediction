@@ -1,0 +1,136 @@
+/* Basic reset for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main dashboard container */
+.dashboard, .offers {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    height: 100vh;
+}
+
+/* Form styling */
+
+a button {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+/* Table header styling */
+thead {
+    background-color: rgb(145, 109, 178);
+    color: white;
+    text-align: left;
+}
+
+thead th {
+    padding: 15px;
+    font-size: 16px;
+}
+  
+tbody tr {
+  /* Table body styling */
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+    
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+  
+/* Table cell styling */
+td {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+.adddoc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.listitems{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+.item{
+    margin-left: 20px;
+}
+
+.offerpat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select{
+    list-style-type: none;
+}
+
+.select li{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.patentry {
+    position: relative; /* Ensure the input is relatively positioned */
+    width: max-content;
+    padding-left: 10px;
+    margin-left: 100px;
+    border: 0;
+    border-bottom: 5px solid #333;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+.patientdet{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.first, .second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+    }
+    
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

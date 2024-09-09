@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Satoshi", sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f7efe5;
+}
+
+main{
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  color: #777;
+  font-size: 20px;
+}
+
+header{
+  background: #C8A1E0;
+  display: flex;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+
+.items {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.items li {
+  margin: 0 15px;
+  text-decoration: none;
+}
+  
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.search {
+  font-size:larger;
+  color: rgb(76, 44, 105);
+  position: relative; /* Ensure the input is relatively positioned */
+  width: max-content;
+  padding: 20px;
+  margin-left: 100px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+button {
+  width: max-content;
+  position: relative;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333; /* Color of the underline */
+  transition: width 0.3s ease;
+}
+
+button:hover::after {
+  width: 100%; /* Full width underline on hover */
+}
+
+input[type="text"],
+input[type="file"] {
+    width: max-content;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+input[type="text"] {
+  font-size: 16px;
+}
+
+/* form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */

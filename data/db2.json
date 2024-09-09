@@ -1,0 +1,16 @@
+{
+  "patient": [
+    {
+      "id": 1,
+      "name": "SharanjeyG",
+      "email": "sharanjey023@gmail.com",
+      "risk": "Cancer",
+      "gender": "Male",
+      "age": "20",
+      "feedback": "90",
+      "visits": "3",
+      "userid": "sharanjeygpat.1@gmail.com",
+      "password": "sharanjeyg@cancer"
+    }
+  ]
+}

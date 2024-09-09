@@ -1,0 +1,28 @@
+{
+  "doctor": [
+    {
+      "id": "1",
+      "name": "SharanjeyG",
+      "email": "sharanjey023@gmail.com",
+      "special": "brain",
+      "userid": "sharanjeygdoc.1@gmail.com",
+      "password": "sharanjeyg@brain"
+    },
+    {
+      "id": "11",
+      "name": "Brindha",
+      "email": "brindha23@gmail.com",
+      "special": "cancer",
+      "userid": "brindhadoc.11@gmail.com",
+      "password": "brindha@cancer"
+    },
+    {
+      "id": "111",
+      "name": "Sharan Arvind",
+      "email": "sharanarvind2@gmail.com",
+      "special": "Brain",
+      "userid": "sharanarvinddoc.111@gmail.com",
+      "password": "sharanarvind@brain"
+    }
+  ]
+}
